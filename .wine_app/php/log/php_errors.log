@@ -1,0 +1,6 @@
+[23-Jan-2022 23:09:00 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 32768 bytes) in /var/www/html/wine_app/storage/framework/views/e27519014e9368c83fb321f8211699465cfa8027.php on line 1
+[23-Jan-2022 23:09:00 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 32768 bytes) in /var/www/html/wine_app/vendor/symfony/error-handler/Error/FatalError.php on line 1
+[23-Jan-2022 23:09:00 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 200704 bytes) in Unknown on line 0
+[23-Jan-2022 23:09:21 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 32768 bytes) in /var/www/html/wine_app/storage/framework/views/e27519014e9368c83fb321f8211699465cfa8027.php on line 1
+[23-Jan-2022 23:09:21 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 32768 bytes) in /var/www/html/wine_app/vendor/symfony/error-handler/Error/FatalError.php on line 1
+[23-Jan-2022 23:09:21 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 184320 bytes) in Unknown on line 0

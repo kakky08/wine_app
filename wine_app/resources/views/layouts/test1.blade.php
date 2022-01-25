@@ -2,13 +2,13 @@
 
 @section('content')
 
-    @yield('header')
-    <main>
+@yield('header')
+<main>
         <div class="container-fluid">
             <div class="row">
                 {{-- Side_bar start --}}
                 <div class="col-lg-3 border-right bg-white vh-100">
-                    @yield('side-bar')
+                    @yield('side_bar')
                 </div>
                 {{-- Side_bar end --}}
                 {{-- Section start --}}
@@ -18,5 +18,5 @@
                 {{-- Section end --}}
             </div>
         </div>
-    </main>
+</main>
 @endsection

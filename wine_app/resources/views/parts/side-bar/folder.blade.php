@@ -7,6 +7,12 @@
     </div>
 </form>
 {{-- Make_folder end --}}
+{{-- Make_memo_button start --}}
+<div class="d-grid gap-2">
+    <button type="button" class="btn btn-outline-success">メモを作成</button>
+</div>
+{{-- Make_memo_button end --}}
+
 {{-- Accordion_folder start --}}
 @for ($i = 0; $i < 3; $i++)
     <div class="accordion accordion-flush" id="accordion-folder-{{ $i }}">

@@ -19,6 +19,9 @@ Route::get('/', function () {
 Route::get('/item', function () {
     return view('item');
 });
+Route::get('/wineSarch', function () {
+    return view('wine-search');
+});
 
 Auth::routes();
 

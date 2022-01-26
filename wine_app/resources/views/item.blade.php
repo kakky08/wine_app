@@ -31,9 +31,11 @@
     </div>
 </div>
 {{-- Item_card end --}}
+{{-- Search_button start --}}
 <div class="d-grid gap-2">
     <button type="button" class="btn btn-outline-warning">飲み比べワインを検索する</button>
     <button type="button" class="btn btn-outline-info">検索条件を絞って検索する</button>
 </div>
+{{-- Search_button end --}}
 
 @endsection

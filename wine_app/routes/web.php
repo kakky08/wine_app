@@ -16,6 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('wine');
 });
+Route::get('/item', function () {
+    return view('item');
+});
 
 Auth::routes();
 

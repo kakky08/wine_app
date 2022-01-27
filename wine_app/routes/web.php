@@ -25,6 +25,9 @@ Route::get('/wineSarch', function () {
 Route::get('/memo', function () {
     return view('memo');
 });
+Route::get('/memo_create', function () {
+    return view('memo-create');
+});
 
 Auth::routes();
 

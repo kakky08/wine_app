@@ -21,6 +21,11 @@ window.Vue = require('vue').default;
 
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 
+import Vue from 'vue';
+// import star-rating
+import StarRating from 'vue-star-rating'
+Vue.component('star-rating', StarRating);
+
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
@@ -29,4 +34,11 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
 
 const app = new Vue({
     el: '#app',
+});
+
+const star = new Vue({
+    el: '#star',
+    data: {
+        rating: 0
+    }
 });

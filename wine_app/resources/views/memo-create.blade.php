@@ -9,10 +9,25 @@
 @endsection
 
 @section('section')
+{{-- Select_folder start --}}
+<div class="col-12">
+    <label for="inlineFormSelectPref" class="form-label">フォルダを選択</label>
+    <select class="form-select" id="inlineFormSelectPref">
+        <option value="" selected>----</option>
+        @for ($i = 0; $i < 3; $i++)
+            <option value="{{ $i }}">Folder{{ $i }}</option>
+        @endfor
+    </select>
+</div>
+{{-- Select_folder end --}}
+
+{{-- Input_wine_name start --}}
 <div class="">
     <label for="formGroupExampleInput" class="form-label">ワインの名前を入力</label>
     <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder">
 </div>
+{{-- Input_wine_name end --}}
+
 {{-- Select_type start --}}
 <div class="col-12">
     <label for="inlineFormSelectPref" class="form-label">ワインのタイプを選択</label>

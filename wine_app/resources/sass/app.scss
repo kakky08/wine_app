@@ -7,6 +7,10 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
+$base-coler: #fcc875;
+$sub-coler: #e38b75;
+$font-coler: #baa896;
+$second-coler: #e6ccb5;
 /*--全体共通--*/
 html {
     height: 100%;
@@ -84,4 +88,9 @@ body {
     height: 85%;
     padding-bottom: 3em;
     word-break: break-all;
+}
+
+/*-- Card --*/
+.card_style{
+
 }

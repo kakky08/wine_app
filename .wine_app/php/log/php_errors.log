@@ -4,3 +4,4 @@
 [23-Jan-2022 23:09:21 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 32768 bytes) in /var/www/html/wine_app/storage/framework/views/e27519014e9368c83fb321f8211699465cfa8027.php on line 1
 [23-Jan-2022 23:09:21 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 32768 bytes) in /var/www/html/wine_app/vendor/symfony/error-handler/Error/FatalError.php on line 1
 [23-Jan-2022 23:09:21 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 184320 bytes) in Unknown on line 0
+[03-Feb-2022 13:13:50 UTC] PHP Fatal error:  Cannot declare class CreateFutherSubcategoriesTable, because the name is already in use in /var/www/html/wine_app/database/migrations/2022_02_03_122554_create_further_subcategories_table.php on line 7
